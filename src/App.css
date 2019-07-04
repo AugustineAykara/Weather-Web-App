@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap');
+body {
+  background-image: linear-gradient(to top right, rgb(35, 147, 151), #ac6310);
+  height: 100vh;  
+}
+
+.container {
+  margin-top : 60px;
+  padding : 35px;
+  background-color : white;   
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.form-container {
+  text-align: center;
+  background-color : rgb(211, 115, 77);   
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.title-container {
+   margin-top: 100px;
+   font-family: 'Raleway', sans-serif;
+   letter-spacing: 2px;
+   color: white;
+   font-weight: 500;
+   font-size: 48px;
+}
+
+
+input {
+  margin-top: 18px;
+}
+.city-container {
+  margin-top : 80px;
+}
+
+input[type="text"] {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0;
+  width: 90%;
+  border-bottom: solid 1px white;
+  padding-bottom: 4px;
+  color: black !important;
+  font-weight: 300;
+  font-weight : bold;
+  letter-spacing: 1px;
+  text-align: center;
+} 
+
+
+button {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 8px 20px;
+  border-radius: 16px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: orangered;
+  color : black;
+}
+
+
+.weather_key {
+  text-transform : uppercase;
+  color : #4aa6ad;
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+}
+.location {
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.temperature {
+  font-size: 78px; 
+}
+.min_max_temperature {
+  font-size: 22px;
+}
+.humidity {
+  margin-top: 28px;
+  font-size: 18px;
+  font-family: serif;
+
+}
+.wind_speed {
+  font-size: 18px;
+  font-family: serif;
+}
+.conditions {
+  padding-top: 88px;
+  font-size: 32px;
+  font-style: italic;
+}
+.error {
+  margin-top: 80px;
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  color: red;
+}
+
