@@ -29,14 +29,14 @@ const Weather = (props) => (
         }
         {
             props.humidity && 
-                <p className="weather_key humidity">HUMIDITY : 
-                    {props.humidity} %
+                <p className="weather_key humidity"> 
+                    HUMIDITY : {props.humidity} %
                 </p> 
         }
         {
             props.wind && 
-                <p className="weather_key wind_speed">WIND SPEED : 
-                    {props.wind} m/s
+                <p className="weather_key wind_speed">
+                    WIND SPEED : {props.wind} m/s
                 </p> 
         }
         {
