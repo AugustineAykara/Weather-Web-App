@@ -2,7 +2,7 @@
   "name": "weather_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://augustineaykara.github.io/weather-web-app",
+  "homepage": "https://AugustineAykara.github.io/Weather-Web-App/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
