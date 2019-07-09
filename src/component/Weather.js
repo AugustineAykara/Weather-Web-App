@@ -12,7 +12,7 @@ const Weather = (props) => (
         {
             props.temperature && 
                 <p className="weather_key">  
-                    <img className="weather_icon" src={`http://openweathermap.org/img/wn/${props.weather_icon}@2x.png`} />
+                    <img className="weather_icon" src={`https://openweathermap.org/img/wn/${props.weather_icon}@2x.png`} />
                 </p> 
         }
         {
