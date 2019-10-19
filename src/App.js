@@ -54,7 +54,7 @@ class App extends React.Component {
         humidity : undefined,
         weather_icon : undefined,
         description : undefined,
-        error : "Please enter City and Country name..."      
+        error : "Please enter City and Country name !"      
       }); 
     }
   }
